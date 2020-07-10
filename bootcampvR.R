@@ -1,4 +1,4 @@
-covid19p<-read.csv('/Users/siddharthsurapaneni/bootcamp/us-counties.csv')
+covid19p<-read.csv('/Users/siddharthsurapaneni/bootcamp/bootcamp/us-counties.csv')
 
 library(tidyverse)
 covid19p$region= case_when(
